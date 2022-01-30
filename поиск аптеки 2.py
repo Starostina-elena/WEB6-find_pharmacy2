@@ -4,7 +4,7 @@ import requests
 from PIL import Image
 
 from count_zoom_for_map import count_zoom_for_map
-from Samples import distance
+import distance
 
 
 def get_input_address_coords(toponym_to_find):
