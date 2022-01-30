@@ -91,7 +91,7 @@ def create_snippet(title, address, time, distance):
 
 if __name__ == '__main__':
 
-    toponym_to_find = 'Саратов, Университетская, 67/73'
+    toponym_to_find = " ".join(sys.argv[1:])
 
     geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
     search_api_server = "https://search-maps.yandex.ru/v1/"
